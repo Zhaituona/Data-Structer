@@ -1,4 +1,4 @@
-package dateStructer;
+package Array;
 
 import java.util.Random;
 

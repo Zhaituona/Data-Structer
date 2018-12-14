@@ -1,4 +1,4 @@
-package dateStructer;
+package Array;
 
 public class Student {
 
