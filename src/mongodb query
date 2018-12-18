@@ -1,0 +1,11 @@
+use sports // it will create database name as sports
+db  // it will show the what database we are in right now
+ad.dropdatabase() // it will drop the celected data base
+db.players.insert( { there put value})  // will create a table , insert data init , collection name end with s
+
+db.players.find() // it will find the inserted data
+db.players.findOne() // it will find the first inserted data
+db.players.find().pretty() // it will show data clearly
+show collections // it will show the collection
+mongoimport -d mydata -c information --type   csv  --file    --headerline
+// it will create database create collection add value init , that value coming from another csv file
