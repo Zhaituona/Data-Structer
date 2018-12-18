@@ -35,6 +35,8 @@ public class HashMapConcept {   // HashMap not maintain order , so it means it n
         for(Map.Entry m: myHM.entrySet()){// it will let you set where o start , for each loop
             System.out.println(m.getKey() + " "+ m.getValue());
 
+            // : in to the data .
+
         }
         System.out.println("****************");
         for(Map.Entry<Integer,String> v : myHM.entrySet()){

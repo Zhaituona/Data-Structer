@@ -3,7 +3,7 @@ package selectionSort;
 public class TestSelectionSort {
 
     public static void main(String[] args) {
-        int []  array = {12,69,78,3,64,13,10};
+        int []  array = {12,69,78,3,64,13,10};// unsorted array
 
         SelectionSort.selectionSort(array);
         System.out.println("The element after sorted : \n");
