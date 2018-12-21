@@ -19,12 +19,15 @@ public class ConnectMySQL {
     // method for insert information
 
     public static void post()  throws  Exception{
-        final String var1 = "Zana";
-        final String var2 = "Mirat";
+       // final String var1 = "Zana";
+       // final String var2 = "Mirat";
+        final String var1 = "Seemal";
+        final String var2 = "Adam";
+       // final int var3 = 2;
 
         try{
             Connection con = getConnection();
-            PreparedStatement post = con.prepareStatement("INSERT INTO mytable(first, last) VALUES (' " +var1+" ', ' "+var2 + "' )");
+            PreparedStatement post = con.prepareStatement("INSERT INTO mytable(first, last ) VALUES (' " +var1+" ', ' "+var2 + "')");
             post.executeUpdate();
         }catch(Exception e){
             System.out.println(e);

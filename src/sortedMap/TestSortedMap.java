@@ -10,12 +10,12 @@ public class TestSortedMap {
 
         Map<Integer,String> Hashmap = new HashMap<Integer,String>();// not sorted
         Map<Integer,String> linkedHashMap = new LinkedHashMap<Integer,String>();// based on sorted, maintance the order by we put in
-        Map<Integer,String> TreehMap = new TreeMap<Integer,String>();// it will sorted
+        Map<Integer,String> TreehMap = new TreeMap<Integer,String>();// it will sorted, will sorted by key ,
         // sorted key by natural order .
 
        // testMap(Hashmap);
-       // testMap(linkedHashMap);
-        testMap(TreehMap);
+       testMap(linkedHashMap);
+       // testMap(TreehMap);
     }
     public static void testMap(Map<Integer,String>map){
 
